@@ -1,7 +1,7 @@
 package com.app.kotlindagger.ui.post
 
 import android.support.annotation.StringRes
-import com.app.kotlindagger.dto.response.Post
+import com.app.kotlindagger.model.Post
 import com.app.kotlindagger.ui.base.BaseView
 
 /**

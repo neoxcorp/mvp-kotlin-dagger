@@ -1,4 +1,4 @@
-package com.app.kotlindagger.app
+package com.app.kotlindagger.injection.module
 
 import android.app.Application
 import android.content.Context

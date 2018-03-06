@@ -1,5 +1,6 @@
-package com.app.kotlindagger.network.api
+package com.app.kotlindagger.network
 
+import com.app.kotlindagger.utils.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.Reusable
@@ -19,9 +20,6 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 // Safe here as we are dealing with a Dagger 2 module
 @Suppress("unused")
 object NetworkModule {
-
-    /** The base URL of the API */
-    val BASE_URL: String = "https://jsonplaceholder.typicode.com"
 
     /**
      * Provides the Post service implementation.

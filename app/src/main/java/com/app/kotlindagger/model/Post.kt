@@ -1,4 +1,4 @@
-package com.app.kotlindagger.dto.response
+package com.app.kotlindagger.model
 
 /**
  * Created by andrew on 3/5/2018

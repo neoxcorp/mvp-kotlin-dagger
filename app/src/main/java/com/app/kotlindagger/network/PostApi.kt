@@ -1,6 +1,6 @@
-package com.app.kotlindagger.network.api
+package com.app.kotlindagger.network
 
-import com.app.kotlindagger.dto.response.Post
+import com.app.kotlindagger.model.Post
 import io.reactivex.Observable
 import retrofit2.http.GET
 
