@@ -1,8 +1,8 @@
-package com.app.kotlindagger.injection.module
+package com.app.injection.module
 
 import android.app.Application
 import android.content.Context
-import com.app.kotlindagger.ui.base.BaseView
+import com.app.ui.base.BaseView
 import dagger.Module
 import dagger.Provides
 

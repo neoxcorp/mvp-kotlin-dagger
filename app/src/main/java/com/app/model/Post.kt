@@ -1,4 +1,4 @@
-package com.app.kotlindagger.model
+package com.app.model
 
 /**
  * Created by andrew on 3/5/2018

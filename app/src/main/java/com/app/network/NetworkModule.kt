@@ -1,6 +1,6 @@
-package com.app.kotlindagger.network
+package com.app.network
 
-import com.app.kotlindagger.utils.BASE_URL
+import com.app.utils.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.Reusable

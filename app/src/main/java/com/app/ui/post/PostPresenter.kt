@@ -1,8 +1,8 @@
-package com.app.kotlindagger.ui.post
+package com.app.ui.post
 
-import com.app.kotlindagger.R
-import com.app.kotlindagger.network.PostApi
-import com.app.kotlindagger.ui.base.BasePresenter
+import com.app.R
+import com.app.network.PostApi
+import com.app.ui.base.BasePresenter
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers

@@ -1,8 +1,8 @@
-package com.app.kotlindagger.ui.splash
+package com.app.ui.splash
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.app.kotlindagger.R
+import com.app.R
 
 class SplashActivity : AppCompatActivity() {
 

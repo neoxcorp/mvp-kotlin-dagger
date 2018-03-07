@@ -1,4 +1,4 @@
-package com.app.kotlindagger.utils
+package com.app.utils
 
 /**
  * Created by andrew on 3/6/2018

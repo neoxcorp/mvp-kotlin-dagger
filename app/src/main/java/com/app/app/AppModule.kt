@@ -1,4 +1,4 @@
-package com.app.kotlindagger.app
+package com.app.app
 
 import dagger.Module
 import dagger.Provides

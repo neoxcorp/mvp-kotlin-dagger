@@ -1,10 +1,10 @@
-package com.app.kotlindagger.ui.base
+package com.app.ui.base
 
-import com.app.kotlindagger.injection.component.DaggerPresenterInjector
-import com.app.kotlindagger.injection.component.PresenterInjector
-import com.app.kotlindagger.injection.module.ContextModule
-import com.app.kotlindagger.network.NetworkModule
-import com.app.kotlindagger.ui.post.PostPresenter
+import com.app.injection.component.DaggerPresenterInjector
+import com.app.injection.component.PresenterInjector
+import com.app.injection.module.ContextModule
+import com.app.network.NetworkModule
+import com.app.ui.post.PostPresenter
 
 /**
  * Created by andrew on 3/5/2018

@@ -1,4 +1,4 @@
-package com.app.kotlindagger.ui.base
+package com.app.ui.base
 
 import android.content.Context
 

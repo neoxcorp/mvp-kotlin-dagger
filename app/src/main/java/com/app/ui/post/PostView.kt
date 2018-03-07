@@ -1,8 +1,8 @@
-package com.app.kotlindagger.ui.post
+package com.app.ui.post
 
 import android.support.annotation.StringRes
-import com.app.kotlindagger.model.Post
-import com.app.kotlindagger.ui.base.BaseView
+import com.app.model.Post
+import com.app.ui.base.BaseView
 
 /**
  * Created by andrew on 3/6/2018

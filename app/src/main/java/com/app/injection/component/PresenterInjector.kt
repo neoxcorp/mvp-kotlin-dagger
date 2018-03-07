@@ -1,9 +1,9 @@
-package com.app.kotlindagger.injection.component
+package com.app.injection.component
 
-import com.app.kotlindagger.injection.module.ContextModule
-import com.app.kotlindagger.network.NetworkModule
-import com.app.kotlindagger.ui.base.BaseView
-import com.app.kotlindagger.ui.post.PostPresenter
+import com.app.injection.module.ContextModule
+import com.app.network.NetworkModule
+import com.app.ui.base.BaseView
+import com.app.ui.post.PostPresenter
 import dagger.BindsInstance
 import dagger.Component
 import javax.inject.Singleton

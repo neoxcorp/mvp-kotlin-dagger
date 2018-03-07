@@ -6,7 +6,7 @@
 
     <variable
         name="post"
-        type="com.app.kotlindagger.model.Post" />
+        type="com.app.model.Post" />
 
   </data>
   <android.support.constraint.ConstraintLayout
