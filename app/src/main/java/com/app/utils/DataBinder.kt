@@ -10,7 +10,7 @@ import com.app.ui.post.PostAdapter
  */
 
 // Safe here as method are used by Data binding
-@file:Suppress("unused")
+// @file:Suppress("unused")
 
 /**
  * Sets an adapter to a RecyclerView (to be used in view with one RecyclerView)

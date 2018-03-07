@@ -1,6 +1,5 @@
 package com.app.app
 
-import com.app.App
 import dagger.Component
 import javax.inject.Singleton
 
