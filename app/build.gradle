@@ -11,6 +11,10 @@ android {
         targetSdkVersion 27
         versionCode 1
         versionName "1.0.0"
+
+        dataBinding {
+            enabled = true
+        }
     }
     buildTypes {
         release {
@@ -21,7 +25,7 @@ android {
 }
 
 dependencies {
-    def multidexVersion = '1.0.3'
+    def multiDexVersion = '1.0.3'
     def supportVersion = '27.1.0'
     def constraintLayoutVersion = '1.1.0-beta5'
     def retrofitVersion = '2.3.0'
@@ -29,9 +33,10 @@ dependencies {
     def glassFishAnnotationVersion = '3.1.1'
     def rxJavaVersion = '2.1.9'
     def rxAndroidVersion = '2.0.2'
+    def dataBindingVersion = '3.0.1'
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "com.android.support:multidex:$multidexVersion"
+    implementation "com.android.support:multidex:$multiDexVersion"
 
     // Kotlin
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
@@ -58,4 +63,7 @@ dependencies {
     // Rx
     implementation "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
     implementation "io.reactivex.rxjava2:rxandroid:$rxAndroidVersion"
+
+    // Data binding
+    kapt "com.android.databinding:compiler:$dataBindingVersion"
 }
