@@ -13,6 +13,7 @@ import com.app.model.Post
  * Created by andrew on 3/7/2018
  */
 
+
 /**
  * Adapter for the list of the posts
  * @property context Context in which the application is running
@@ -24,7 +25,7 @@ class PostAdapter(private val context: Context) : RecyclerView.Adapter<PostAdapt
      */
     private var posts: List<Post> = listOf()
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PostViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): PostViewHolder {
         val layoutInflater = LayoutInflater.from(context)
         val binding: ItemPostBinding = DataBindingUtil.inflate(layoutInflater, R.layout.item_post, parent, false)
         return PostViewHolder(binding)
