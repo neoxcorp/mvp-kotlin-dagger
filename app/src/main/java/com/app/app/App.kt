@@ -7,5 +7,5 @@ import android.app.Application
  */
 class App : Application() {
 
-    // val component
+    // some changes
 }
